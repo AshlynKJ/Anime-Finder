@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Recommendation Form</title>
+	<link rel="stylesheet" href="style.css" title="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
+</head>
+<!-- will find all results that fit the filters -->
+<body>
+    <h2>Recommender</h2>
+	<form action= "/processRecommendationForm" method="post">
+		<fieldset>
+			Genre: <select id="genre" name="genre">
+				<option value="fantasy">fantasy</option>
+				<option value="action" selected>action</option>
+				<option value="adventure">adventure</option>
+				<option value="romance">romance</option>
+				<option value="sports">sports</option>
+			</select>
+		</fieldset>
+		<input type="reset" />
+		<input type="submit" />
+	</form>
+	<a href="/">HOME</a>
+</body>
+
+</html>
